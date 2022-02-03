@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Massively by HTML5 UP</title>
+		<title>Portfoilo</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,7 +20,7 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1>My Portfoilo</h1>
-						<p>A showcase of my project and my abilities.</p>
+						<p>A showcase of my projects and my abilities.</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -37,6 +37,7 @@
 							<li class="active"><a href="index.html">Portfoilo</a></li>
 						</ul>
 						<ul class="icons">
+							<li><a href="mailto:abel@abelvegaarteaga.xyz" class="icon alt fa-envelope"><span class="label">Mail</span></a></li>
 							<li><a href="https://twitter.com/AbelVegaArteaga" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="https://www.linkedin.com/in/abel-arteaga-18a6211b5/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
 							<li><a href="https://github.com/AVegaArteaga" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
@@ -45,53 +46,83 @@
 
 				<!-- Main -->
 					<div id="main">
-
 						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									
-									<h2><a href="#">Abel Vega Arteaga</a></h2>
-									<p>I'm a software developer in Chicago, IL.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">More</a></li>
-								</ul>
-							</article>
-
+						<article class="post featured">
+							<header class="major">
+								<h2><a href="https://github.com/AVegaArteaga/School-Work-NIU-2019-2021/tree/main/csci463/Assign5">RISC-V simulator decoder</a></h2>
+								<p>Created using <a href="https://github.com/johnwinans/rvalp"> John Winans' RISC-V Assemly Language Programming</a> book. </p>
+							</header>
+							<a href="https://github.com/AVegaArteaga/School-Work-NIU-2019-2021/tree/main/csci463/Assign5" class="image main"><img src="images/RISCV2.PNG" alt="" /></a>
+							<p>The RISC-V program that decodes RISC-V programs and dumps the memory and registory.<br>
+								Usage: rv32i [-d] [-i] [-r] [-z] [-l exec-limit] [-m hex-mem-size] infile<br>
+								&emsp;-d show disassembly before program execution<br>
+								&emsp;-i show instruction printing during execution<br>
+								&emsp;-l maximum number of instructions to exec<br>
+								&emsp;-m specify memory size (default = 0x100)<br>
+								&emsp;-r show register printing during execution<br>
+								&emsp;-z show a dump of the regs & memory after simulation<br>
+							</p>
+							<ul class="actions special">
+						
+								<li><a href="https://github.com/AVegaArteaga/School-Work-NIU-2019-2021/tree/main/csci463/Assign5" class="button large">View Code</a></li>
+							</ul>
+						</article>
 						<!-- Posts -->
 							<section class="posts">
 								<article>
 									<header>
 										
-										<h2><a href="#">Project 1<br />
-										ipsum faucibus</a></h2>
+										<h2><a href="https://checkout-tips.xyz/">Checkout Tracker Project<br />
+										(MERN stack)</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="https://checkout-tips.xyz/" class="image fit"><img src="images/pic01.gif" alt="" /></a>
+									<p>Web app to keep track of my delivery tips at a pizzeria. Keeps track bills and what I owe to the store at the end of the day. (Edit button to be added)</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a  href="https://github.com/AVegaArteaga/dominos_checkout_project/tree/mainProj" class="button">View Code</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
 										
-										<h2><a href="#">Project 2<br />
-										imperdiet lorem</a></h2>
+										<h2><a href="https://vigilant-volhard-4ffc81.netlify.app/">Memories Project<br />
+											(MERN STACK)</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="https://vigilant-volhard-4ffc81.netlify.app/" class="image fit"><img src="images/memories.PNG" alt="" /></a>
+									<p>This web app was created using MasteryJS guide, This project helped me learn the Full-Stack web development.</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="https://github.com/AVegaArteaga/memories_project" class="button">View Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										
+										<h2><a href="https://github.com/AVegaArteaga/School-Work-NIU-2019-2021/tree/main/csci463/Assign7">IPC<br />
+										(C/C++)</a></h2>
+									</header>
+									<a href="https://github.com/AVegaArteaga/School-Work-NIU-2019-2021/tree/main/csci463/Assign7" class="image fit"><img src="images/socketProject.gif" alt="" /></a>
+									<p>This project is an Inter-process communication that utilizes connection between two processes to allow data to flow between Client and Server.<br>
+										Client sends binary data to the Server. Server counts each character and add each character's hexadecimal into a total. The Server will then return total and number of characters.</p>
+									<ul class="actions special">
+										<li><a  href="https://github.com/AVegaArteaga/dominos_checkout_project/tree/mainProj" class="button">View Code</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://checkout-tips.xyz/">Simple Threading<br />
+										(C/C++)</a></h2>
+									</header>
+									<a href="https://checkout-tips.xyz/" class="image fit"><img src="images/threads.gif" alt="" /></a>
+									<p>Uses -t: number of threads or upto the system's cpu can handle. The program can either split the work evenly, or whichever thread is ready for more calculations dynamically (-d). <br>
+										this program utilizes mutex lock to accomplish the task</p>
+									<ul class="actions special">
+										<li><a  href="https://github.com/AVegaArteaga/dominos_checkout_project/tree/mainProj" class="button">View Code</a></li>
 									</ul>
 								</article>
 							</section>
 
 						<!-- Footer -->
 							<footer>
-			
 							</footer>
-
 					</div>
 
 				<!-- Footer -->
@@ -100,7 +131,7 @@
 						<section class="split contact">
 							
 							<section>
-								<h3>Contant</h3>
+								<h3>Contact</h3>
 								<ul class="icons alt">
 									<li><a href="mailto:abel@abelvegaarteaga.xyz" class="icon alt fa-envelope"><span class="label">Mail</span></a></li>
 									<li><a href="https://twitter.com/AbelVegaArteaga" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
